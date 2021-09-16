@@ -8,7 +8,8 @@ body{
     font-size: 16px;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px
+    padding: 0 20px;
+    padding-bottom: 50px;
 }
 
 img{
@@ -32,7 +33,7 @@ a{
 }
 
 a:hover{
-    color: #090f60;
+    color: #090f90;
 }
 
 nav ul{
@@ -102,4 +103,10 @@ h1{
     font-size: 1.1rem;
     font-weight: 400;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+.buy:hover{
+    background-color: #090f60;
+    color: white;
 }
